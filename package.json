@@ -4,7 +4,10 @@
   "description": "A code test project for Grid Unity",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,21 @@
   "bugs": {
     "url": "https://github.com/snowmac/gu-code-test/issues"
   },
-  "homepage": "https://github.com/snowmac/gu-code-test#readme"
+  "homepage": "https://github.com/snowmac/gu-code-test#readme",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.2.0",
+    "@nivo/core": "^0.99.0",
+    "@nivo/line": "^0.99.0",
+    "@tanstack/react-query": "^5.83.0",
+    "@types/node": "^24.0.15",
+    "@types/react": "^19.1.8",
+    "eslint": "^9.31.0",
+    "next": "^15.4.2",
+    "papaparse": "^5.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
+  }
 }
