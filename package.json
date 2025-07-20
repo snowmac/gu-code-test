@@ -1,0 +1,19 @@
+{
+  "name": "gu-code-test",
+  "version": "1.0.0",
+  "description": "A code test project for Grid Unity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowmac/gu-code-test.git"
+  },
+  "author": "Adam Bourg",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/snowmac/gu-code-test/issues"
+  },
+  "homepage": "https://github.com/snowmac/gu-code-test#readme"
+}
