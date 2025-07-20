@@ -2,6 +2,7 @@ import type { AppProps } from 'next/app';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import React from 'react';
+import DefaultLayout from '../components/layouts/default';
 
 const queryClient = new QueryClient();
 const theme = createTheme({
@@ -21,7 +22,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Component {...pageProps} />
+        <DefaultLayout>
+          <Component {...pageProps} />
+        </DefaultLayout>
       </ThemeProvider>
     </QueryClientProvider>
   );
